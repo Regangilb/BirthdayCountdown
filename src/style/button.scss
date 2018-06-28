@@ -8,6 +8,7 @@
     width: 350px;
     color: white;
     background-color: $color-blue-one;
+    -webkit-clip-path: polygon(7% 0, 100% 0, 95% 100%, 0% 100%);
     clip-path: polygon(7% 0, 100% 0, 95% 100%, 0% 100%);
     font-family: 'Montserrat';
     font-size: 18px;
