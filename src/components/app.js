@@ -95,8 +95,8 @@ export default class App extends Component {
 
       if (distance < 0) {
         clearInterval(this.timer);
-        // document.getElementById("demo").innerHTML = "EXPIRED";
       }
+
     }.bind(this), 1000);
   }.bind(this);
 
@@ -116,7 +116,7 @@ export default class App extends Component {
         ChangeDate("Change Date", () => this.setState({ active: false })),
         LargeText(this.getBirthDate(this.state.startDate.toDate())),
         <label key={3} className="grid__remaining">
-          Remaining until you turn {this.state.age}
+          Remaining until you turn {this.state.age+1}
         </label>
       ];
     } else {
