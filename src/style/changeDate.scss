@@ -1,9 +1,9 @@
 .change-date {
     grid-row: 2/3;
-    grid-column: 4/5;
+    grid-column: 4/6;
     justify-self: start;
 
-    font-size: 24;
+    font-size: 25px;
     font-family: $font-roboto;
     font-weight: 100;
     line-height: center;
@@ -13,14 +13,14 @@
     background-color: transparent;
     border: none;
 
-    transform: rotate(-72deg) translate(-30px, -30px);
+    transform: rotate(-62deg) translate(0, -30px);
 
     &:focus {
         outline: none;
     }
 
     i {
-        margin-right: 20px;
+        margin-right: 2px;
     }
 
 }
